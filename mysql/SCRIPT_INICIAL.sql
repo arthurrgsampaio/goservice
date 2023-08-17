@@ -1,1 +1,3 @@
-create database goservice_db;
+CREATE DATABASE goservice_db;
+
+
