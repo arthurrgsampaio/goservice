@@ -29,4 +29,9 @@ public class AuthController {
     //public String generico(){
     //    return "generico";
     //}
+
+    @GetMapping(value = "/password/new")
+    public String altSenha(){
+        return "alterarSenha";
+    }
 }
