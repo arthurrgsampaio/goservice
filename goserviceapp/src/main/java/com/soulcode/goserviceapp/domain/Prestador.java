@@ -16,7 +16,7 @@ public class Prestador extends Usuario{
 
     private String descricao;
 
-    @Min(value =  = 10, message = "O valor mínimo de taxa cobrada por hora é de 10.")
+    @Min(value = 10, message = "O valor mínimo de taxa cobrada por hora é de 10.")
     private Float taxaPorHora;
 
     @ManyToMany
